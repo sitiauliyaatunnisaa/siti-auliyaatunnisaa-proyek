@@ -1,6 +1,8 @@
 # Program Otomatisasi Analisis Nilai Ujian Siswa
 
-Proyek akhir ini disusun untuk memenuhi tugas mata kuliah **Algoritma dan Pemrograman** (Program Studi S1 Pendidikan Matematika, FKIP Universitas Sultan Ageng Tirtayasa).
+NAMA: Siti Auliyaatunnisaa
+NIM: 2225250085
+KELAS: 3A
 
 ## Deskripsi Proyek
 Program ini dirancang menggunakan bahasa Python dengan pendekatan **pemrograman modular** (memisahkan fungsi input data, proses logika statistik, dan penyimpanan output)[cite: 3]. Program berfungsi membaca data nilai siswa dari berkas teks eksternal, menghitung statistik kelas (rata-rata, nilai tertinggi, dan terendah), menentukan status kelulusan berdasarkan Kriteria Ketuntasan Minimal (KKM = 75), serta menyimpan laporan hasil analisis secara otomatis.
@@ -71,11 +73,28 @@ Pastikan main.py membaca file yang benar, yaitu data/contoh_data.txt, dan memang
 
 ## 8. Ringkasan Hasil Pengujian
 Berdasarkan data contoh, satu baris tidak valid, yaitu A004,abc. Dengan demikian, terdapat 9 data siswa valid.
-KomponenHasilJumlah siswa valid9Total nilai673Rata-rata nilai74,78Nilai tertinggi100Nilai terendah45Siswa tuntas7Siswa belum tuntas2Data tidak valid1Siswa Tuntas: A001, A002, A003, A005, A007, A008, dan A010.Siswa Belum Tuntas: A006 dan A009.
+| Komponen | Hasil | 
+| Jumlah siswa valid | 9 |
+|Total nilai | 673 |
+|Rata-rata nilai | 74,78 |
+| Nilai tertinggi | 100 |
+| Nilai terendah | 45 |
+| Siswa tuntas | 7 |
+| Siswa belum tuntas | 2 |
+| Data tidak valid | 1 |
+Siswa Tuntas: A001, A002, A003, A005, A007, A008, dan A010.
+Siswa Belum Tuntas: A006 dan A009.
 
 ## 9. Skenario Pengujian Program
 Pengujian dilakukan untuk memastikan program berjalan sesuai ketentuan.
-No.Skenario PengujianHasil yang Diharapkan1Memasukkan nilai 85Data diterima dan berstatus tuntas2Memasukkan nilai 60Data diterima dan berstatus tuntas3Memasukkan nilai 45Data diterima dan berstatus belum tuntas4Memasukkan nilai abcData ditolak5Memasukkan nilai 120Data ditolak6Memasukkan NIM duplikatData duplikat ditolak7Membaca file yang tidak ditemukanPesan kesalahan ditampilkan8Menyimpan hasil rekapFile rekap dibuat jika penyimpanan berhasil
+1. Memasukkan nilai 85; Data diterima dan berstatus tuntas
+2. Memasukkan nilai 60; Data diterima dan berstatus tuntas
+3. Memasukkan nilai 45; Data diterima dan berstatus belum tuntas
+4. Memasukkan nilai abc; Data ditolak
+5. Memasukkan nilai 120; Data ditolak
+6. Memasukkan NIM duplikat; Data duplikat ditolak
+7. Membaca file yang tidak ditemukan; Pesan kesalahan ditampilkan
+8. Menyimpan hasil rekap; File rekap dibuat jika penyimpanan berhasil
 
 ## 10. Analisis Efisiensi
 Misalkan $n$ adalah jumlah data siswa yang diproses.
