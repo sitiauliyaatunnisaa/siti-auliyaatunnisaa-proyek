@@ -1,6 +1,8 @@
 # Program Otomatisasi Analisis Nilai Ujian Siswa
 
-Proyek akhir ini disusun untuk memenuhi tugas mata kuliah **Algoritma dan Pemrograman** (Program Studi S1 Pendidikan Matematika, FKIP Universitas Sultan Ageng Tirtayasa).
+Nama: Siti Auliyaatunnisaa
+NIM: 2225250085
+Kelas: 3A
 
 ## Deskripsi Proyek
 Program ini dirancang menggunakan bahasa Python dengan pendekatan **pemrograman modular** (memisahkan fungsi input data, proses logika statistik, dan penyimpanan output)[cite: 3]. Program berfungsi membaca data nilai siswa dari berkas teks eksternal, menghitung statistik kelas (rata-rata, nilai tertinggi, dan terendah), menentukan status kelulusan berdasarkan Kriteria Ketuntasan Minimal (KKM = 75), serta menyimpan laporan hasil analisis secara otomatis.
